@@ -37,10 +37,14 @@ if(!isset($_GET['id'])){
     $response = $controller->create($params);
 }
 
-if( count( $_SESSION["errors"]) === 0){
+if(!isset($_SESSION['error'])){
     header("Location: " . getenv('ROOT') . 'pages/home.php');
 }
 
+if(isset($_SESSION['error'])){
+    header("Location: " . getenv('ROOT') . 'pages/formulario.php');
+    
+}
 
 
 

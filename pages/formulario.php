@@ -23,7 +23,7 @@ session_start();
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="formulario.php">Create Anuncio</a>
+                    <a class="nav-link" href="formulario.php">Criar Anuncio</a>
                 </li>
             </ul>
         </div>
